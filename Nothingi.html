@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--กดF12 มาเอาไรครับ🤨-->
+<!--ถ้าเห็นข้อความนี้ แก้ FLAG ด้วย-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio Website</title>
+    <style>
+        /*อันนี้ cursor เมาส์ที่เป็นวงกลม ของดีจัด เอาไปใช้กันได้*/
+        .circle-cursor {
+            position: fixed;
+            width: 30px;
+            height: 30px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: transform 0.1s ease;
+            z-index: 9999;
+        }
+        .circle-cursor.click-effect {
+            transform: translate(-50%, -50%) scale(0.8);
+            background-color: rgba(51, 51, 51, 0.5);
+        }
+        h3{
+            position: relative;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="circle-cursor"></div>
+    <header>
+        <a href="secret.html" class="logo">Lewyns</a>
+        <nav>
+            <a href="index.html" class="active">BACK</a>
+        </nav>
+    </header>
+
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <h3 class="scroll-animate delay-3" style="font-size: 5rem; color: #cebbff;">
+          Nothin' to say
+        </h3>
+      </div>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <h3 class="scroll-animate delay-3" style="font-size: 5rem; color: #ffffff;">
+          just press <strong>BACK</strong> button
+        </h3>
+      </div>
+
+</body>

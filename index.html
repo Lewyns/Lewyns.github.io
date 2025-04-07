@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<!--กดF12 มาเอาไรครับ🤨-->
+<!--ของดี อยากรู้ ดูใต้โค้ด-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Portfolio Website</title>
+    <style>
+        /*อันนี้ cursor เมาส์ที่เป็นวงกลม ของดีจัด เอาไปใช้กันได้*/
+        .circle-cursor {
+            position: fixed;
+            width: 30px;
+            height: 30px;
+            border: 2px solid #333;
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%);
+            transition: transform 0.1s ease;
+            z-index: 9999;
+        }
+        .circle-cursor.click-effect {
+            transform: translate(-50%, -50%) scale(0.8);
+            background-color: rgba(51, 51, 51, 0.5);
+        }
+    </style>
+
+</head>
+<body>
+    <div class="circle-cursor"></div>
+    <header>
+        <a href="#" class="logo">Lewyns</a>
+        <nav>
+            <a href="#about" class="active">About me</a>
+            <a href="#skills">My Skills</a>
+            <a href="#projects">My Project</a>
+            <a href="#certificate">Certificate</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
+
+
+    <section id="about" class="home">
+        <div class="home-img">
+            <img src="img/ado3xz.jpg" alt="">
+        </div>
+        <div class="home-content scroll-animate">
+            <h1 class="scroll-animate delay-1">Hi, It's <span>Lewyns</span></h1>
+            <h3 class="typing-text scroll-animate delay-2">I'm a <span></span></h3>
+            <p class="scroll-animate delay-3"><strong>Never stop trying Never stop believing Never give up. - A quote by someone on Pinterest.</strong></p>
+            <p class="scroll-animate delay-3">ミ♡</p>
+            <p class="scroll-animate delay-3">To be honest, my name is Archawin Kerddee, but people usually call me Garfield — or just Few for short.</p>
+            <p class="scroll-animate delay-3">I love coding, running, and playing a lot of instruments — especially guitar, keyboard, and bass guitar.</p>
+            <p class="scroll-animate delay-3">I'm fascinated by the Northern Lights and absolutely love listening to Polyphia and Serious Bacon.</p>
+            <p class="scroll-animate delay-3">I also like playing CTFs and learning about Cyber Security.</p>
+        </div>
+    </section>
+    
+    <section id="skills" class="home2">
+        <div class="skills-content">
+            <h1 class="scroll-animate">My <span>Skills</span></h1>
+            <div class="skills-grid-container">
+
+                <div class="skills-row">
+                    <div class="skill-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                        <div class="skill-level expert">Expert</div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                        <div class="skill-level expert">Expert</div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                        <div class="skill-level intermediate">Intermediate</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <i class="fa-brands fa-linux"></i>
+                        <span>LINUX</span>
+                        <div class="skill-level intermediate">Intermediate</div>
+                    </div>
+
+                </div>
+                
+                <div class="skills-row">
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <span>C++</span>
+                        <div class="skill-level intermediate">Intermediate</div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <i class="fas fa-code"></i>
+                        <span>C#</span>
+                        <div class="skill-level beginner">Beginner</div>
+                    </div>
+
+                    <div class="skill-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                        <div class="skill-level beginner">Beginner</div>
+                    </div>
+                    
+                    <div class="skill-item">
+                        <i class="fab fa-raspberry-pi"></i>
+                        <span>RASPBERRY PI</span>
+                        <div class="skill-level beginner">Beginner</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="home3">
+        <div class="port-content">
+            <h1>My <span>Projects</span></h1>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="img/sts.png" alt="Project 1">
+                        <div class="project-links">
+                            <a href="sts.html"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="https://github.com/noonzx2552/Sprint_to_Survive/tree/main"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sprint to Survive</h3>
+                        <p>Endless Game Runner</p>
+                        <div class="project-tech">
+                            <span>UNITY</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="img/Aurora’s Dawn_Leak1.png" alt="Project 2">
+                        <div class="project-links">
+                            <a href="Nothing.html"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="Nothing.html"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Aurora’s Dawn</h3>
+                        <p>ตอนนี้กำลังสร้าง อย่ามองข้ามฉันได้หม้าย</p>
+                        <div class="project-tech">
+                            <span>UNITY</span>
+                            <span>C#</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="img/eieiz.png" alt="Project 3">
+                        <div class="project-links">
+                            <a href="Nothingi.html"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="Nothing.html"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>SECRET</h3>
+                        <p>COMING SOON</p>
+                        <div class="project-tech">
+                            <span>***</span>
+                            <span>***</span>
+                            <span>***</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certificate" class="home4">
+        <div class="certificate-content">
+            <h1>My <span>Certificates</span></h1>
+            <div class="certificates-container">
+                <div class="certificate-card">
+                    <div class="certificate-img">
+                        <img src="img/NSC1.jpg" alt="NSC Certificate">
+                        <div class="certificate-overlay">
+                            <h3>NSC</h3>
+                            <p>Issued by : NSTDA</p>
+                            <p>Date : August 2024</p>
+                            <a href="img/NSC1.jpg" data-lightbox="certificates" data-title="National Software Contest" class="view-btn">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <h3>National Software Contest</h3>
+                        <p>เข้ารอบชิงชนะเลิศการแข่งขันพัฒนาโปรแกรมเพื่อความบันเทิง</p>
+                    </div>
+                </div>
+    
+                <div class="certificate-card">
+                    <div class="certificate-img">
+                        <img src="img/NCSA.jpg" alt="React Certificate">
+                        <div class="certificate-overlay">
+                            <h3>Cyber Secuirity MOOC</h3>
+                            <p>Issued by : NCSA Thailand</p>
+                            <p>Date : March 2025</p>
+                            <a href="img/NCSA.jpg" data-lightbox="certificates" data-title="NCSA CYBER SECUIRITY MOOC" class="view-btn">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <h3>NCSA CYBER SECUIRITY MOOC</h3>
+                        <p>ผ่านการอบรมความปลอดภัยทางไซเบอร์</p>
+                    </div>
+                </div>
+    
+                <div class="certificate-card">
+                    <div class="certificate-img">
+                        <img src="img/MU2.jpg" alt="UI/UX Design Certificate">
+                        <div class="certificate-overlay">
+                            <h3>MATH Competition</h3>
+                            <p>Issued by : Mahidol University</p>
+                            <p>Date : August 2024</p>
+                            <a href="img/MU2.jpg" data-lightbox="certificates" data-title="MU Mental Math Competition" class="view-btn">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="certificate-info">
+                        <h3>MU Mental Math Competition</h3>
+                        <p>เข้าร่วมการแข่งขันคณิตศาสตร์ของม.มหิดล</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="home5">
+        <div class="contact-content">
+            <h1>Get In <span>Touch</span></h1>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2><i class="fas fa-envelope"></i> Email</h2>
+                    <p>lewyns1984@gmail.com</p>
+                    <h2><i class="fas fa-phone"></i> Phone</h2>
+                    <p>DM</p>
+                    
+                    <h2><i class="fas fa-map-marker-alt"></i> Location</h2>
+                    <p>Rayong, Thailand</p>
+                    
+                    <div class="contact-social">
+                        <a href="https://www.instagram.com/scrztq/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100090057191044"><i class="fab fa-facebook"></i></a>
+                        <a href="https://github.com/Lewyns"><i class="fab fa-github"></i></a>
+                        <a href="https://x.com/supersigma777"><i class="fab fa-x-twitter"></i></a>
+                    </div>
+                </div>
+                
+                <form class="contact-form">
+                    <div class="input-group">
+                        <input type="text" placeholder="Your Name" required>
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <input type="text" placeholder="Subject">
+                    <textarea placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+</html>
